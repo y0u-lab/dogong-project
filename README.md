@@ -31,15 +31,15 @@
 
 # 실행 방법
 1. backend
-   (1) 필요 라이브러리 설치
+   - 필요 라이브러리 설치
    pip install fastapi uvicorn langchain langchain-openai faiss-cpu sentence-transformers python-dotenv
-   (2) .env 파일 설정
+   - .env 파일 설정
    OPENAI_API_KEY=your_api_key_here
-   (3) 서버 실행
+   - 서버 실행
    python main.py
 
 3. frontend
-   (1) 패키지 가져오기
+   - 패키지 가져오기
    flutter pub get
-   (2) 앱 실행
+   - 앱 실행
    flutter run
